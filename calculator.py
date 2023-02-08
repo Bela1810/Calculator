@@ -1,5 +1,5 @@
 from abc import ABC
-class Operaciones:
+class Operaciones(ABC):
 
 def Sumar(self, Num1, Num2):
     return Num1 + Num2
