@@ -3,6 +3,11 @@ from abc import ABC
 class Operaciones:
 
 
+  def Multiplicar(self, Num1, Num2):
+    return Num1 * Num2
+
+
+
 class Menu_Calculadora(Operaciones):
   def menu_calculadora():
     print("1. Sumar")
@@ -41,5 +46,4 @@ class Menu_Calculadora(Operaciones):
     seguir = input('Seguir operando? si/no')
     if seguir == "no":
       break
-def Multiplicar(self, Num1, Num2):
-    return Num1 * Num2
+
